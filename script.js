@@ -50,5 +50,8 @@ console.log(heading);
 document.querySelector("body").prepend(heading)
 heading.style.textAlign = "center"
 
+// ========    /* Delete  P tag */  =============    ==============
+let Delete = document.querySelector("p");
+Delete.remove();
 
 
